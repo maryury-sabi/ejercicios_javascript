@@ -27,6 +27,30 @@ console.log( "valor total = "+ valortotal);
 
 
 
+///   descuento//
+
+///<-------->
+let tot =40000;
+let desc1=.05;
+let desc2=.10; 
+let valortot=0;
+
+
+  
+if(tot <= 30000 ){
+console.log("su compra es de "+tot +" y no tiene descuento");}
+
+if(tot>30000 && tot < 100000){
+          valortot=((tot * desc1) -tot);
+         console.log("su compra es de  "+ tot +" y tiene un descuento de 5% y su total de descuento es de"+valortot);}
+
+ if ( tot >= 100000){
+       valortot=((tot * desc2) - tot);
+        console.log("su compra es de "+tot+" y tiene un descuento de 10% y su total de descuento es de "+valortot);}
+ 
+
+
+
 
 
 
