@@ -17,7 +17,7 @@ let impuesto=.10;
 let domi=2000;
 let valortotal=0;
 
-total=(producto * impuesto + producto );
+total=((producto * impuesto) + producto );
  valortotal=(total+domi);
 
 
