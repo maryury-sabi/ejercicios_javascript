@@ -1,8 +1,7 @@
 "use strict"
 
+var nombre="maryury";
 
-var saludo="Bienvenido (a) sra Maryury";
-var hola="Binevenido (a) sra ingrid";
 
-console.log(saludo);
-console.log(hola);
+console.log("Bienvenido (a) sra " + nombre);
+
